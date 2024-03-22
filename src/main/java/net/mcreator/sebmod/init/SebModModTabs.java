@@ -45,6 +45,10 @@ public class SebModModTabs {
 			tabData.accept(SebModModItems.JABIBIARMOR_ARMOR_BOOTS.get());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(SebModModItems.AMONG_US_SPAWN_EGG.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(SebModModItems.JABIBI.get());
 		}

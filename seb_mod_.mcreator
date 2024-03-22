@@ -362,6 +362,20 @@
       }
     },
     {
+      "name": "PrettyPatty",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pretty_patty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/pretty_patty.json",
+          "src/main/java/net/mcreator/sebmod/item/PrettyPattyItem.java"
+        ]
+      }
+    },
+    {
       "name": "Nastypatty",
       "type": "item",
       "sortid": 32,
@@ -376,16 +390,20 @@
       }
     },
     {
-      "name": "PrettyPatty",
-      "type": "item",
-      "sortid": 33,
+      "name": "AmongUs",
+      "type": "animatedentity",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pretty_patty",
+      "registry_name": "among_us",
       "metadata": {
         "files": [
-          "src/main/resources/assets/seb_mod_/models/item/pretty_patty.json",
-          "src/main/java/net/mcreator/sebmod/item/PrettyPattyItem.java"
+          "src/main/java/net/mcreator/sebmod/entity/layer/AmongUsLayer.java",
+          "src/main/resources/assets/seb_mod_/models/item/among_us_spawn_egg.json",
+          "src/main/java/net/mcreator/sebmod/entity/AmongUsEntity.java",
+          "src/main/java/net/mcreator/sebmod/entity/model/AmongUsModel.java",
+          "src/main/java/net/mcreator/sebmod/client/renderer/AmongUsRenderer.java",
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/among_us_biome_modifier.json"
         ]
       }
     }
@@ -445,7 +463,6 @@
       "item.seb_mod_.skibidi_toilet_spawn_egg": "Skibidi Toilet Spawn Egg",
       "item.seb_mod_.skibidi_dop_dop": "Skibidi Dop Dop",
       "item.seb_mod_.jabibiarmor_armor_boots": "Jabibiarmor Boots",
-      "item.seb_mod_.nastypatty": "Nastypatty",
       "item.seb_mod_.jabibitools_pickaxe": "Jabibitools Pickaxe",
       "subtitles.skip_a_t": "skibidi",
       "item.seb_mod_.jabibiarmor_armor_helmet": "Jabibiarmor Helmet",
@@ -455,7 +472,6 @@
       "subtitles.skibdi_dop_dop": "BRRR SKIBIDI DOP DOP DOP YES YES",
       "entity.seb_mod_.skibidi_toilet": "Skibidi Toilet",
       "item.seb_mod_.jabibi": "Jabibi",
-      "item.seb_mod_.pretty_patty": "Pretty Patty",
       "block.seb_mod_.jabibi_block": "Block of Jabibi",
       "item_group.seb_mod_.seb_mod": "Seb Mod :)",
       "item.seb_mod_.jabibitools_axe": "Jabibitools Axe"

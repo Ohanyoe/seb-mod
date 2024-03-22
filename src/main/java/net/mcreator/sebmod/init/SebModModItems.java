@@ -42,6 +42,7 @@ public class SebModModItems {
 	public static final RegistryObject<Item> JABIBIARMOR_ARMOR_LEGGINGS = REGISTRY.register("jabibiarmor_armor_leggings", () -> new JabibiarmorArmorItem.Leggings());
 	public static final RegistryObject<Item> JABIBIARMOR_ARMOR_BOOTS = REGISTRY.register("jabibiarmor_armor_boots", () -> new JabibiarmorArmorItem.Boots());
 	public static final RegistryObject<Item> NASTYPATTY = REGISTRY.register("nastypatty", () -> new NastypattyItem());
+	public static final RegistryObject<Item> AMONG_US_SPAWN_EGG = REGISTRY.register("among_us_spawn_egg", () -> new ForgeSpawnEggItem(SebModModEntities.AMONG_US, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> PRETTY_PATTY = REGISTRY.register("pretty_patty", () -> new PrettyPattyItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

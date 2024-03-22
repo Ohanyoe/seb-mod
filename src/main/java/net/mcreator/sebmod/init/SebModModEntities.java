@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.sebmod.entity.SkibiditoiletEntity;
+import net.mcreator.sebmod.entity.AmongUsEntity;
 import net.mcreator.sebmod.SebModMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -24,6 +25,10 @@ public class SebModModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, SebModMod.MODID);
 	public static final RegistryObject<EntityType<SkibiditoiletEntity>> SKIBIDITOILET = register("skibiditoilet",
 			EntityType.Builder.<SkibiditoiletEntity>of(SkibiditoiletEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SkibiditoiletEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<AmongUsEntity>> AMONG_US = register("among_us",
+			EntityType.Builder.<AmongUsEntity>of(AmongUsEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AmongUsEntity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -35,11 +40,13 @@ public class SebModModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			SkibiditoiletEntity.init();
+			AmongUsEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SKIBIDITOILET.get(), SkibiditoiletEntity.createAttributes().build());
+		event.put(AMONG_US.get(), AmongUsEntity.createAttributes().build());
 	}
 }
