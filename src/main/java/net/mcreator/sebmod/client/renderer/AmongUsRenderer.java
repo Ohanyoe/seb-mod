@@ -36,4 +36,9 @@ public class AmongUsRenderer extends GeoEntityRenderer<AmongUsEntity> {
 		this.scaleWidth = scale;
 		super.preRender(poseStack, entity, model, bufferSource, buffer, isReRender, partialTick, packedLight, packedOverlay, red, green, blue, alpha);
 	}
+
+	@Override
+	protected float getDeathMaxRotation(AmongUsEntity entityLivingBaseIn) {
+		return 0.0F;
+	}
 }
