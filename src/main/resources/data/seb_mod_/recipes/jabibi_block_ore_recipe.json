@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "seb_mod_:jabibi_block"
+    }
+  ],
+  "result": {
+    "item": "seb_mod_:jabibi",
+    "count": 9
+  }
+}

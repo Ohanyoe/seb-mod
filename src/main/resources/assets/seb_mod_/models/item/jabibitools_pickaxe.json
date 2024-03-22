@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "seb_mod_:item/jabibitools_pickaxe"
+  }
+}
