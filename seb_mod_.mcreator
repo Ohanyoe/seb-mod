@@ -42,6 +42,324 @@
           "src/main/java/net/mcreator/sebmod/entity/model/SkibiditoiletModel.java"
         ]
       }
+    },
+    {
+      "name": "JabibioreOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibiore_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibiore_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibioreOreSmelting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibiore_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibiore_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Jabibi",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/jabibi.json",
+          "src/main/java/net/mcreator/sebmod/item/JabibiItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JabibiOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibi_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/worldgen/placed_feature/jabibi_ore.json",
+          "src/main/java/net/mcreator/sebmod/block/JabibiOreBlock.java",
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/jabibi_ore_biome_modifier.json",
+          "src/main/resources/assets/seb_mod_/models/item/jabibi_ore.json",
+          "src/main/resources/data/seb_mod_/worldgen/configured_feature/jabibi_ore.json",
+          "src/main/resources/assets/seb_mod_/blockstates/jabibi_ore.json",
+          "src/main/resources/assets/seb_mod_/models/block/jabibi_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibiBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibi_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/jabibi_block.json",
+          "src/main/resources/assets/seb_mod_/blockstates/jabibi_block.json",
+          "src/main/resources/assets/seb_mod_/models/block/jabibi_block.json",
+          "src/main/java/net/mcreator/sebmod/block/JabibiBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "JabibiOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibi_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibi_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibiBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibi_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibi_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibiOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibi_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibi_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsPickaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/JabibitoolsPickaxeItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/jabibitools_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsAxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/JabibitoolsAxeItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/jabibitools_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsSword",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/JabibitoolsSwordItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/jabibitools_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsShovel",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/jabibitools_shovel.json",
+          "src/main/java/net/mcreator/sebmod/item/JabibitoolsShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsHoe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/JabibitoolsHoeItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/jabibitools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibitools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibitools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibitools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibitools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibitoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibitools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibitools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibiarmorArmor",
+      "type": "armor",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibiarmor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_chestplate.json",
+          "src/main/java/net/mcreator/sebmod/item/JabibiarmorArmorItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_helmet.json",
+          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_leggings.json",
+          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibiarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibiarmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibiarmor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibiarmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibiarmor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibiarmor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibiarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibiarmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibiarmor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JabibiarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jabibiarmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/jabibiarmor_armor_boots_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -89,15 +407,28 @@
   ],
   "language_map": {
     "en_us": {
-      "subtitles.skibdi_dop_dop": "BRRR SKIBIDI DOP DOP DOP YES YES",
-      "entity.seb_mod_.skibidi_toilet": "Skibidi Toilet",
+      "item.seb_mod_.jabibiarmor_armor_leggings": "Jabibiarmor Leggings",
+      "item.seb_mod_.jabibitools_pickaxe": "Jabibitools Pickaxe",
+      "item.seb_mod_.jabibiarmor_armor_chestplate": "Jabibiarmor Chestplate",
       "item.seb_mod_.skibidi_dop_dop.desc": "brrr skibidi dop dop dop yes yes",
       "subtitles.skip_a_t": "skibidi",
-      "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
+      "item.seb_mod_.jabibiarmor_armor_helmet": "Jabibiarmor Helmet",
       "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
+      "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
+      "item.seb_mod_.jabibitools_shovel": "Jabibitools Shovel",
+      "item.seb_mod_.jabibitools_hoe": "Jabibitools Hoe",
+      "block.seb_mod_.jabibiore_ore": "Jabibiore Ore",
+      "subtitles.skibdi_dop_dop": "BRRR SKIBIDI DOP DOP DOP YES YES",
+      "entity.seb_mod_.skibidi_toilet": "Skibidi Toilet",
+      "item.seb_mod_.jabibitools_sword": "Jabibitools Sword",
+      "item.seb_mod_.jabibi": "Jabibi",
+      "block.seb_mod_.jabibi_block": "Block of Jabibi",
       "item_group.seb_mod_.seb_mod": "Seb Mod :)",
+      "block.seb_mod_.jabibi_ore": "Jabibi Ore",
+      "item.seb_mod_.jabibitools_axe": "Jabibitools Axe",
       "item.seb_mod_.skibidi_toilet_spawn_egg": "Skibidi Toilet Spawn Egg",
-      "item.seb_mod_.skibidi_dop_dop": "Skibidi Dop Dop"
+      "item.seb_mod_.skibidi_dop_dop": "Skibidi Dop Dop",
+      "item.seb_mod_.jabibiarmor_armor_boots": "Jabibiarmor Boots"
     }
   },
   "foldersRoot": {

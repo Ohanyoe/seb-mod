@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "seb_mod_:jabibi"
+    }
+  },
+  "result": {
+    "item": "seb_mod_:jabibiarmor_armor_boots",
+    "count": 1
+  }
+}

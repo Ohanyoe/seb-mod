@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "seb_mod_:block/jabibiblock",
+    "up": "seb_mod_:block/jabibiblock",
+    "north": "seb_mod_:block/jabibiblock",
+    "east": "seb_mod_:block/jabibiblock",
+    "south": "seb_mod_:block/jabibiblock",
+    "west": "seb_mod_:block/jabibiblock",
+    "particle": "seb_mod_:block/jabibiblock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "seb_mod_:block/jabibiore",
+    "up": "seb_mod_:block/jabibiore",
+    "north": "seb_mod_:block/jabibiore",
+    "east": "seb_mod_:block/jabibiore",
+    "south": "seb_mod_:block/jabibiore",
+    "west": "seb_mod_:block/jabibiore",
+    "particle": "seb_mod_:block/jabibiore"
+  },
+  "render_type": "solid"
+}
