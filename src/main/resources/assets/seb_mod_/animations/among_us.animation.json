@@ -53,6 +53,24 @@
 					}
 				}
 			}
+		},
+		"animation.Among Us.new": {
+			"animation_length": 1.08333,
+			"bones": {
+				"bone8": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.5": {
+							"vector": [1, 2.4, 1]
+						},
+						"1.0": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
 		}
 	},
 	"geckolib_format_version": 2
