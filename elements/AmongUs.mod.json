@@ -126,7 +126,7 @@
     "enable10": false,
     "breedable": false,
     "tameable": false,
-    "disableDeathRotation": false,
+    "disableDeathRotation": true,
     "headMovement": false,
     "eyeHeight": false,
     "breedTriggerItems": [],
