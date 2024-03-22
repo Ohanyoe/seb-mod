@@ -33,7 +33,6 @@ import net.mcreator.sebmod.init.SebModModTabs;
 import net.mcreator.sebmod.init.SebModModSounds;
 import net.mcreator.sebmod.init.SebModModItems;
 import net.mcreator.sebmod.init.SebModModEntities;
-import net.mcreator.sebmod.init.SebModModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,7 +52,6 @@ public class SebModMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		SebModModSounds.REGISTRY.register(bus);
-		SebModModBlocks.REGISTRY.register(bus);
 
 		SebModModItems.REGISTRY.register(bus);
 		SebModModEntities.REGISTRY.register(bus);
