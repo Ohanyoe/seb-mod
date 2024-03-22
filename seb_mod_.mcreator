@@ -1,0 +1,133 @@
+{
+  "mod_elements": [
+    {
+      "name": "SkibidiDopDop",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skibidi_dop_dop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/skibidi_dop_dop.json",
+          "src/main/java/net/mcreator/sebmod/item/SkibidiDopDopItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SebMod",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seb_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Skibiditoilet",
+      "type": "animatedentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skibiditoilet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/skibiditoilet_spawn_egg.json",
+          "src/main/java/net/mcreator/sebmod/entity/layer/SkibiditoiletLayer.java",
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/skibiditoilet_biome_modifier.json",
+          "src/main/java/net/mcreator/sebmod/client/renderer/SkibiditoiletRenderer.java",
+          "src/main/java/net/mcreator/sebmod/entity/SkibiditoiletEntity.java",
+          "src/main/java/net/mcreator/sebmod/entity/model/SkibiditoiletModel.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "amongusdeath",
+      "files": [
+        "kill_knife"
+      ],
+      "category": "master",
+      "subtitle": "AMONG US DIED!!!!!!!!!!"
+    },
+    {
+      "name": "deathofamongus",
+      "files": [
+        "kill_knife"
+      ],
+      "category": "master",
+      "subtitle": "DEATH!!!!"
+    },
+    {
+      "name": "amongushurted",
+      "files": [
+        "killing_sound_4"
+      ],
+      "category": "master",
+      "subtitle": "HURT!!!"
+    },
+    {
+      "name": "skibdi_dop_dop",
+      "files": [
+        "skibidi-toilet-song"
+      ],
+      "category": "music",
+      "subtitle": "BRRR SKIBIDI DOP DOP DOP YES YES"
+    },
+    {
+      "name": "skip_a_t",
+      "files": [
+        "skibidi"
+      ],
+      "category": "master",
+      "subtitle": "skibidi"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.deathofamongus": "DEATH!!!!",
+      "subtitles.amongusdeath": "AMONG US DIED!!!!!!!!!!",
+      "item.seb_mod_.skibidi_dop_dop.desc": "brrr skibidi dop dop dop yes yes",
+      "subtitles.skip_a_t": "skibidi",
+      "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
+      "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
+      "subtitles.amongushurted": "HURT!!!",
+      "subtitles.skibdi_dop_dop": "BRRR SKIBIDI DOP DOP DOP YES YES",
+      "entity.seb_mod_.skibidi_toilet": "Skibidi Toilet",
+      "item_group.seb_mod_.seb_mod": "Seb Mod :)",
+      "item.seb_mod_.skibidi_toilet_spawn_egg": "Skibidi Toilet Spawn Egg",
+      "item.seb_mod_.skibidi_dop_dop": "Skibidi Dop Dop"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "seb_mod_",
+    "modName": "seb mod :)",
+    "version": "1.0.0",
+    "author": "USER, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link",
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sebmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

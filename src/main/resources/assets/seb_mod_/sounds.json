@@ -1,0 +1,47 @@
+{
+  "amongusdeath": {
+    "subtitle": "subtitles.amongusdeath",
+    "sounds": [
+      {
+        "name": "seb_mod_:kill_knife",
+        "stream": false
+      }
+    ]
+  },
+  "deathofamongus": {
+    "subtitle": "subtitles.deathofamongus",
+    "sounds": [
+      {
+        "name": "seb_mod_:kill_knife",
+        "stream": false
+      }
+    ]
+  },
+  "amongushurted": {
+    "subtitle": "subtitles.amongushurted",
+    "sounds": [
+      {
+        "name": "seb_mod_:killing_sound_4",
+        "stream": false
+      }
+    ]
+  },
+  "skibdi_dop_dop": {
+    "subtitle": "subtitles.skibdi_dop_dop",
+    "sounds": [
+      {
+        "name": "seb_mod_:skibidi-toilet-song",
+        "stream": true
+      }
+    ]
+  },
+  "skip_a_t": {
+    "subtitle": "subtitles.skip_a_t",
+    "sounds": [
+      {
+        "name": "seb_mod_:skibidi",
+        "stream": false
+      }
+    ]
+  }
+}

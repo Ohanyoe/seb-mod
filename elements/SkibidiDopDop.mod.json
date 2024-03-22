@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Skibidi Dop Dop",
+    "rarity": "EPIC",
+    "texture": "record_skip_a_t",
+    "description": "brrr skibidi dop dop dop yes yes",
+    "creativeTab": {
+      "value": "CUSTOM:SebMod"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:skibdi_dop_dop"
+    },
+    "lengthInTicks": 2480,
+    "analogOutput": 0
+  }
+}
