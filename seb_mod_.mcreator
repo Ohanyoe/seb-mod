@@ -362,6 +362,34 @@
       }
     },
     {
+      "name": "PrettyPatty",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pretty_patty",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/pretty_patty.json",
+          "src/main/java/net/mcreator/sebmod/item/PrettyPattyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nastypatty",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nastypatty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/NastypattyItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/nastypatty.json"
+        ]
+      }
+    },
+    {
       "name": "AmongUs",
       "type": "animatedentity",
       "sortid": 32,
@@ -371,11 +399,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sebmod/entity/layer/AmongUsLayer.java",
-          "src/main/resources/data/seb_mod_/forge/biome_modifier/among_us_biome_modifier.json",
           "src/main/resources/assets/seb_mod_/models/item/among_us_spawn_egg.json",
-          "src/main/java/net/mcreator/sebmod/client/renderer/AmongUsRenderer.java",
           "src/main/java/net/mcreator/sebmod/entity/AmongUsEntity.java",
-          "src/main/java/net/mcreator/sebmod/entity/model/AmongUsModel.java"
+          "src/main/java/net/mcreator/sebmod/entity/model/AmongUsModel.java",
+          "src/main/java/net/mcreator/sebmod/client/renderer/AmongUsRenderer.java",
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/among_us_biome_modifier.json"
         ]
       }
     }
@@ -427,11 +455,9 @@
     "en_us": {
       "item.seb_mod_.jabibiarmor_armor_leggings": "Jabibiarmor Leggings",
       "item.seb_mod_.jabibiarmor_armor_chestplate": "Jabibiarmor Chestplate",
-      "item.seb_mod_.among_us_spawn_egg": "Among Us Spawn Egg",
       "item.seb_mod_.skibidi_dop_dop.desc": "brrr skibidi dop dop dop yes yes",
       "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
       "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
-      "entity.seb_mod_.among_us": "Among Us",
       "item.seb_mod_.jabibitools_sword": "Jabibitools Sword",
       "block.seb_mod_.jabibi_ore": "Jabibi Ore",
       "item.seb_mod_.skibidi_toilet_spawn_egg": "Skibidi Toilet Spawn Egg",
