@@ -4,15 +4,6 @@
  */
 package net.mcreator.sebmod.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
-
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.BlockItem;
-
 import net.mcreator.sebmod.item.SkibidiDopDopItem;
 import net.mcreator.sebmod.item.PrettyPattyItem;
 import net.mcreator.sebmod.item.NastypattyItem;

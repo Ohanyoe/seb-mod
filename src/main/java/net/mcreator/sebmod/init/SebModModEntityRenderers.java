@@ -4,11 +4,6 @@
  */
 package net.mcreator.sebmod.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.mcreator.sebmod.client.renderer.SkibiditoiletRenderer;
 import net.mcreator.sebmod.client.renderer.GaryRenderer;
 import net.mcreator.sebmod.client.renderer.BatmaneRenderer;
