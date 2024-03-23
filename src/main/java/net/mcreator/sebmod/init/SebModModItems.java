@@ -15,6 +15,14 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.sebmod.item.SkibidiDopDopItem;
 import net.mcreator.sebmod.item.PrettyPattyItem;
+import net.mcreator.sebmod.item.PeterItem;
+import net.mcreator.sebmod.item.PeterGriffinItem;
+import net.mcreator.sebmod.item.PeteSwordItem;
+import net.mcreator.sebmod.item.PeteShovelItem;
+import net.mcreator.sebmod.item.PetePickaxeItem;
+import net.mcreator.sebmod.item.PeteHoeItem;
+import net.mcreator.sebmod.item.PeteAxeItem;
+import net.mcreator.sebmod.item.PeteArmorItem;
 import net.mcreator.sebmod.item.NastypattyItem;
 import net.mcreator.sebmod.item.JabibitoolsSwordItem;
 import net.mcreator.sebmod.item.JabibitoolsShovelItem;
@@ -44,6 +52,19 @@ public class SebModModItems {
 	public static final RegistryObject<Item> NASTYPATTY = REGISTRY.register("nastypatty", () -> new NastypattyItem());
 	public static final RegistryObject<Item> AMONG_US_SPAWN_EGG = REGISTRY.register("among_us_spawn_egg", () -> new ForgeSpawnEggItem(SebModModEntities.AMONG_US, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> PRETTY_PATTY = REGISTRY.register("pretty_patty", () -> new PrettyPattyItem());
+	public static final RegistryObject<Item> PETER_GRIFFIN = REGISTRY.register("peter_griffin", () -> new PeterGriffinItem());
+	public static final RegistryObject<Item> PETER_ORE = block(SebModModBlocks.PETER_ORE);
+	public static final RegistryObject<Item> PETER_BLOCK = block(SebModModBlocks.PETER_BLOCK);
+	public static final RegistryObject<Item> PETER = REGISTRY.register("peter", () -> new PeterItem());
+	public static final RegistryObject<Item> PETE_ARMOR_HELMET = REGISTRY.register("pete_armor_helmet", () -> new PeteArmorItem.Helmet());
+	public static final RegistryObject<Item> PETE_ARMOR_CHESTPLATE = REGISTRY.register("pete_armor_chestplate", () -> new PeteArmorItem.Chestplate());
+	public static final RegistryObject<Item> PETE_ARMOR_LEGGINGS = REGISTRY.register("pete_armor_leggings", () -> new PeteArmorItem.Leggings());
+	public static final RegistryObject<Item> PETE_ARMOR_BOOTS = REGISTRY.register("pete_armor_boots", () -> new PeteArmorItem.Boots());
+	public static final RegistryObject<Item> PETE_PICKAXE = REGISTRY.register("pete_pickaxe", () -> new PetePickaxeItem());
+	public static final RegistryObject<Item> PETE_AXE = REGISTRY.register("pete_axe", () -> new PeteAxeItem());
+	public static final RegistryObject<Item> PETE_SWORD = REGISTRY.register("pete_sword", () -> new PeteSwordItem());
+	public static final RegistryObject<Item> PETE_SHOVEL = REGISTRY.register("pete_shovel", () -> new PeteShovelItem());
+	public static final RegistryObject<Item> PETE_HOE = REGISTRY.register("pete_hoe", () -> new PeteHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

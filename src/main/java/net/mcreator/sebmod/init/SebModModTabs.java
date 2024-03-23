@@ -27,6 +27,7 @@ public class SebModModTabs {
 				tabData.accept(SebModModItems.SKIBIDITOILET_SPAWN_EGG.get());
 				tabData.accept(SebModModItems.NASTYPATTY.get());
 				tabData.accept(SebModModItems.PRETTY_PATTY.get());
+				tabData.accept(SebModModItems.PETER_GRIFFIN.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -35,6 +36,8 @@ public class SebModModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(SebModModBlocks.JABIBI_BLOCK.get().asItem());
 			tabData.accept(SebModModBlocks.JABIBI_ORE.get().asItem());
+			tabData.accept(SebModModBlocks.PETER_ORE.get().asItem());
+			tabData.accept(SebModModBlocks.PETER_BLOCK.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -43,6 +46,11 @@ public class SebModModTabs {
 			tabData.accept(SebModModItems.JABIBIARMOR_ARMOR_CHESTPLATE.get());
 			tabData.accept(SebModModItems.JABIBIARMOR_ARMOR_LEGGINGS.get());
 			tabData.accept(SebModModItems.JABIBIARMOR_ARMOR_BOOTS.get());
+			tabData.accept(SebModModItems.PETE_ARMOR_HELMET.get());
+			tabData.accept(SebModModItems.PETE_ARMOR_CHESTPLATE.get());
+			tabData.accept(SebModModItems.PETE_ARMOR_LEGGINGS.get());
+			tabData.accept(SebModModItems.PETE_ARMOR_BOOTS.get());
+			tabData.accept(SebModModItems.PETE_SWORD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
@@ -51,6 +59,7 @@ public class SebModModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(SebModModItems.JABIBI.get());
+			tabData.accept(SebModModItems.PETER.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -58,6 +67,10 @@ public class SebModModTabs {
 			tabData.accept(SebModModItems.JABIBITOOLS_PICKAXE.get());
 			tabData.accept(SebModModItems.JABIBITOOLS_SHOVEL.get());
 			tabData.accept(SebModModItems.JABIBITOOLS_HOE.get());
+			tabData.accept(SebModModItems.PETE_PICKAXE.get());
+			tabData.accept(SebModModItems.PETE_AXE.get());
+			tabData.accept(SebModModItems.PETE_SHOVEL.get());
+			tabData.accept(SebModModItems.PETE_HOE.get());
 		}
 	}
 }

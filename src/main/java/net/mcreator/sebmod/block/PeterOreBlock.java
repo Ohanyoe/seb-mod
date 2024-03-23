@@ -20,8 +20,8 @@ import net.mcreator.sebmod.init.SebModModItems;
 import java.util.List;
 import java.util.Collections;
 
-public class JabibioreOreBlock extends Block {
-	public JabibioreOreBlock() {
+public class PeterOreBlock extends Block {
+	public PeterOreBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(3f, 5f).requiresCorrectToolForDrops());
 	}
 
@@ -47,6 +47,6 @@ public class JabibioreOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(SebModModItems.DELETED_MOD_ELEMENT.get()));
+		return Collections.singletonList(new ItemStack(SebModModItems.PETER.get()));
 	}
 }

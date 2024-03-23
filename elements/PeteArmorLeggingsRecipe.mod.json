@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Peter"
+      },
+      {
+        "value": "CUSTOM:Peter"
+      },
+      {
+        "value": "CUSTOM:Peter"
+      },
+      {
+        "value": "CUSTOM:Peter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Peter"
+      },
+      {
+        "value": "CUSTOM:Peter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Peter"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PeteArmor.legs"
+    },
+    "name": "pete_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

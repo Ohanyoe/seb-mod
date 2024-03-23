@@ -11,9 +11,9 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class PrettyPattyItem extends Item {
-	public PrettyPattyItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(10).saturationMod(10f).meat().build()));
+public class PeterGriffinItem extends Item {
+	public PeterGriffinItem() {
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat().meat().build()));
 	}
 
 	@Override

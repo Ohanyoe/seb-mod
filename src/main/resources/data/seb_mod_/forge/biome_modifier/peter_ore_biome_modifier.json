@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "seb_mod_:peter_ore",
+  "step": "underground_ores"
+}

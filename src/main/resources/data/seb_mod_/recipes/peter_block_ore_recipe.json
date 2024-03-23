@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "seb_mod_:peter_block"
+    }
+  ],
+  "result": {
+    "item": "seb_mod_:peter",
+    "count": 9
+  }
+}
