@@ -1,18 +1,7 @@
 
 package net.mcreator.sebmod.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.HoeItem;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.sebmod.init.SebModModItems;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class PeteHoeItem extends HoeItem {
 	public PeteHoeItem() {
@@ -38,7 +27,7 @@ public class PeteHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(SebModModItems.PETER.get()));
+				return Ingredient.of(new ItemStack(SebModModItems.DELETED_MOD_ELEMENT.get()));
 			}
 		}, 0, -3f, new Item.Properties());
 	}

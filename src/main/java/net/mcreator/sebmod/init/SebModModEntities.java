@@ -17,6 +17,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.sebmod.entity.SkibiditoiletEntity;
+import net.mcreator.sebmod.entity.GaryEntity;
+import net.mcreator.sebmod.entity.BatmaneEntity;
 import net.mcreator.sebmod.entity.AmongUsEntity;
 import net.mcreator.sebmod.SebModMod;
 
@@ -31,6 +33,12 @@ public class SebModModEntities {
 			EntityType.Builder.<AmongUsEntity>of(AmongUsEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AmongUsEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BatmaneEntity>> BATMANE = register("batmane",
+			EntityType.Builder.<BatmaneEntity>of(BatmaneEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(BatmaneEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GaryEntity>> GARY = register("gary",
+			EntityType.Builder.<GaryEntity>of(GaryEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GaryEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -41,6 +49,8 @@ public class SebModModEntities {
 		event.enqueueWork(() -> {
 			SkibiditoiletEntity.init();
 			AmongUsEntity.init();
+			BatmaneEntity.init();
+			GaryEntity.init();
 		});
 	}
 
@@ -48,5 +58,7 @@ public class SebModModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SKIBIDITOILET.get(), SkibiditoiletEntity.createAttributes().build());
 		event.put(AMONG_US.get(), AmongUsEntity.createAttributes().build());
+		event.put(BATMANE.get(), BatmaneEntity.createAttributes().build());
+		event.put(GARY.get(), GaryEntity.createAttributes().build());
 	}
 }

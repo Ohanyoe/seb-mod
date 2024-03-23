@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "seb_mod_:batmane",
+    "weight": 30,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

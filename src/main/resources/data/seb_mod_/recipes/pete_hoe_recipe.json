@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "seb_mod_:peter"
+      "item": "seb_mod_:deleted_mod_element"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "seb_mod_:pete_hoe",
+    "item": "seb_mod_:deleted_mod_element",
     "count": 1
   }
 }

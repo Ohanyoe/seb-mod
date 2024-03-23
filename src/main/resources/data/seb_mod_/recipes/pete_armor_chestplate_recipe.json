@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "seb_mod_:peter"
+      "item": "seb_mod_:deleted_mod_element"
     }
   },
   "result": {
-    "item": "seb_mod_:pete_armor_chestplate",
+    "item": "seb_mod_:deleted_mod_element_chestplate",
     "count": 1
   }
 }

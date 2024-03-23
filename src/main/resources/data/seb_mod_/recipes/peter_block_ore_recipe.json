@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "seb_mod_:peter_block"
+      "item": "seb_mod_:deleted_mod_element"
     }
   ],
   "result": {
-    "item": "seb_mod_:peter",
+    "item": "seb_mod_:deleted_mod_element",
     "count": 9
   }
 }

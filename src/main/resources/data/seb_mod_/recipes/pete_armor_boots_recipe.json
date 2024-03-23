@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "seb_mod_:peter"
+      "item": "seb_mod_:deleted_mod_element"
     }
   },
   "result": {
-    "item": "seb_mod_:pete_armor_boots",
+    "item": "seb_mod_:deleted_mod_element_boots",
     "count": 1
   }
 }

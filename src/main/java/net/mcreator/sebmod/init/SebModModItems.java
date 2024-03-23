@@ -53,7 +53,9 @@ public class SebModModItems {
 	public static final RegistryObject<Item> AMONG_US_SPAWN_EGG = REGISTRY.register("among_us_spawn_egg", () -> new ForgeSpawnEggItem(SebModModEntities.AMONG_US, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> PRETTY_PATTY = REGISTRY.register("pretty_patty", () -> new PrettyPattyItem());
 	public static final RegistryObject<Item> PETER_GRIFFIN = REGISTRY.register("peter_griffin", () -> new PeterGriffinItem());
+	public static final RegistryObject<Item> BATMANE_SPAWN_EGG = REGISTRY.register("batmane_spawn_egg", () -> new ForgeSpawnEggItem(SebModModEntities.BATMANE, -13421773, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> PETER_ORE = block(SebModModBlocks.PETER_ORE);
+	public static final RegistryObject<Item> GARY_SPAWN_EGG = REGISTRY.register("gary_spawn_egg", () -> new ForgeSpawnEggItem(SebModModEntities.GARY, -39169, -39322, new Item.Properties()));
 	public static final RegistryObject<Item> PETER_BLOCK = block(SebModModBlocks.PETER_BLOCK);
 	public static final RegistryObject<Item> PETER = REGISTRY.register("peter", () -> new PeterItem());
 	public static final RegistryObject<Item> PETE_ARMOR_HELMET = REGISTRY.register("pete_armor_helmet", () -> new PeteArmorItem.Helmet());

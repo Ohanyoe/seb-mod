@@ -14,10 +14,10 @@ import javax.annotation.Nullable;
 import software.bernie.geckolib.core.animation.AnimatableManager;
 import software.bernie.geckolib.core.animation.AnimationState;
 
-public class AmongUsEntity extends Monster implements GeoEntity {
-	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(AmongUsEntity.class, EntityDataSerializers.BOOLEAN);
-	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(AmongUsEntity.class, EntityDataSerializers.STRING);
-	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(AmongUsEntity.class, EntityDataSerializers.STRING);
+public class GaryEntity extends PathfinderMob implements GeoEntity {
+	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(GaryEntity.class, EntityDataSerializers.BOOLEAN);
+	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(GaryEntity.class, EntityDataSerializers.STRING);
+	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(GaryEntity.class, EntityDataSerializers.STRING);
 
 	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 	private boolean swinging;
@@ -25,13 +25,13 @@ public class AmongUsEntity extends Monster implements GeoEntity {
 	private long lastSwing;
 	public String animationprocedure = "empty";
 
-	public AmongUsEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(SebModModEntities.AMONG_US.get(), world);
+	public GaryEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(SebModModEntities.GARY.get(), world);
 	}
 
-	public AmongUsEntity(EntityType<AmongUsEntity> type, Level world) {
+	public GaryEntity(EntityType<GaryEntity> type, Level world) {
 		super(type, world);
-		xpReward = 6;
+		xpReward = 0;
 		setNoAi(false);
 
 	}
@@ -41,7 +41,7 @@ public class AmongUsEntity extends Monster implements GeoEntity {
 		super.defineSynchedData();
 		this.entityData.define(SHOOT, false);
 		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "amongus");
+		this.entityData.define(TEXTURE, "gary");
 	}
 
 	public void setTexture(String texture) {
@@ -83,12 +83,12 @@ public class AmongUsEntity extends Monster implements GeoEntity {
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("seb_mod_:amongushurted"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("seb_mod_:deathofamongus"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
 	}
 
 	@Override
@@ -115,16 +115,22 @@ public class AmongUsEntity extends Monster implements GeoEntity {
 		return super.getDimensions(p_33597_).scale((float) 1);
 	}
 
+	@Override
+	public void aiStep() {
+		super.aiStep();
+		this.updateSwingTime();
+	}
+
 	public static void init() {
-		SpawnPlacements.register(SebModModEntities.AMONG_US.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(SebModModEntities.GARY.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.5);
-		builder = builder.add(Attributes.MAX_HEALTH, 15);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
@@ -137,12 +143,9 @@ public class AmongUsEntity extends Monster implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.Among Us.Walk"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.Gary.Walk"));
 			}
-			if (this.isDeadOrDying()) {
-				return event.setAndContinue(RawAnimation.begin().thenPlay("animation.Among Us.death"));
-			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.Among Us.new"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.Gary.Idle"));
 		}
 		return PlayState.STOP;
 	}
@@ -164,7 +167,7 @@ public class AmongUsEntity extends Monster implements GeoEntity {
 	protected void tickDeath() {
 		++this.deathTime;
 		if (this.deathTime == 20) {
-			this.remove(AmongUsEntity.RemovalReason.KILLED);
+			this.remove(GaryEntity.RemovalReason.KILLED);
 			this.dropExperience();
 
 		}

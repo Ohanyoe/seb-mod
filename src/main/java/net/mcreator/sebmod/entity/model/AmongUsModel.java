@@ -1,10 +1,6 @@
 package net.mcreator.sebmod.entity.model;
 
-import software.bernie.geckolib.model.GeoModel;
-
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.sebmod.entity.AmongUsEntity;
+import software.bernie.geckolib.core.animation.AnimationState;
 
 public class AmongUsModel extends GeoModel<AmongUsEntity> {
 	@Override
