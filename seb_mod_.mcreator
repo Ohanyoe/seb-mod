@@ -365,7 +365,7 @@
       "name": "PrettyPatty",
       "type": "item",
       "sortid": 33,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pretty_patty",
       "metadata": {
@@ -379,7 +379,7 @@
       "name": "Nastypatty",
       "type": "item",
       "sortid": 32,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nastypatty",
       "metadata": {
@@ -570,7 +570,7 @@
       "name": "PeterBlock",
       "type": "block",
       "sortid": 36,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "peter_block",
       "metadata": {
@@ -698,7 +698,7 @@
       "name": "PeterOre",
       "type": "block",
       "sortid": 35,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "peter_ore",
       "metadata": {
@@ -717,7 +717,7 @@
       "name": "Gary",
       "type": "animatedentity",
       "sortid": 35,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "gary",
       "metadata": {
@@ -735,7 +735,7 @@
       "name": "Batmane",
       "type": "animatedentity",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "batmane",
       "metadata": {
@@ -816,9 +816,9 @@
       "item.seb_mod_.pete_armor_helmet": "Pete Helmet",
       "item.seb_mod_.among_us_spawn_egg": "Among Us Spawn Egg",
       "item.seb_mod_.skibidi_dop_dop.desc": "brrr skibidi dop dop dop yes yes",
-      "entity.seb_mod_.among_us": "Among Us",
-      "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
       "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
+      "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
+      "entity.seb_mod_.among_us": "Among Us",
       "item.seb_mod_.pete_armor_leggings": "Pete Leggings",
       "item.seb_mod_.pete_sword": "Pete Sword",
       "item.seb_mod_.pete_armor_boots": "Pete Boots",
