@@ -9,8 +9,8 @@
       "registry_name": "skibidi_dop_dop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/seb_mod_/models/item/skibidi_dop_dop.json",
-          "src/main/java/net/mcreator/sebmod/item/SkibidiDopDopItem.java"
+          "src/main/java/net/mcreator/sebmod/item/SkibidiDopDopItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/skibidi_dop_dop.json"
         ]
       }
     },
@@ -34,10 +34,10 @@
       "registry_name": "skibiditoilet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/seb_mod_/models/item/skibiditoilet_spawn_egg.json",
-          "src/main/java/net/mcreator/sebmod/entity/layer/SkibiditoiletLayer.java",
-          "src/main/resources/data/seb_mod_/forge/biome_modifier/skibiditoilet_biome_modifier.json",
           "src/main/java/net/mcreator/sebmod/client/renderer/SkibiditoiletRenderer.java",
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/skibiditoilet_biome_modifier.json",
+          "src/main/java/net/mcreator/sebmod/entity/layer/SkibiditoiletLayer.java",
+          "src/main/resources/assets/seb_mod_/models/item/skibiditoilet_spawn_egg.json",
           "src/main/java/net/mcreator/sebmod/entity/SkibiditoiletEntity.java",
           "src/main/java/net/mcreator/sebmod/entity/model/SkibiditoiletModel.java"
         ]
@@ -78,8 +78,8 @@
       "registry_name": "jabibi",
       "metadata": {
         "files": [
-          "src/main/resources/assets/seb_mod_/models/item/jabibi.json",
-          "src/main/java/net/mcreator/sebmod/item/JabibiItem.java"
+          "src/main/java/net/mcreator/sebmod/item/JabibiItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/jabibi.json"
         ]
       }
     },
@@ -92,13 +92,13 @@
       "registry_name": "jabibi_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/seb_mod_/worldgen/placed_feature/jabibi_ore.json",
           "src/main/java/net/mcreator/sebmod/block/JabibiOreBlock.java",
-          "src/main/resources/data/seb_mod_/forge/biome_modifier/jabibi_ore_biome_modifier.json",
-          "src/main/resources/assets/seb_mod_/models/item/jabibi_ore.json",
+          "src/main/resources/assets/seb_mod_/models/block/jabibi_ore.json",
           "src/main/resources/data/seb_mod_/worldgen/configured_feature/jabibi_ore.json",
           "src/main/resources/assets/seb_mod_/blockstates/jabibi_ore.json",
-          "src/main/resources/assets/seb_mod_/models/block/jabibi_ore.json"
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/jabibi_ore_biome_modifier.json",
+          "src/main/resources/data/seb_mod_/worldgen/placed_feature/jabibi_ore.json",
+          "src/main/resources/assets/seb_mod_/models/item/jabibi_ore.json"
         ]
       }
     },
@@ -111,8 +111,8 @@
       "registry_name": "jabibi_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/seb_mod_/models/item/jabibi_block.json",
           "src/main/resources/assets/seb_mod_/blockstates/jabibi_block.json",
+          "src/main/resources/assets/seb_mod_/models/item/jabibi_block.json",
           "src/main/resources/assets/seb_mod_/models/block/jabibi_block.json",
           "src/main/java/net/mcreator/sebmod/block/JabibiBlockBlock.java"
         ]
@@ -194,8 +194,8 @@
       "registry_name": "jabibitools_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sebmod/item/JabibitoolsSwordItem.java",
-          "src/main/resources/assets/seb_mod_/models/item/jabibitools_sword.json"
+          "src/main/resources/assets/seb_mod_/models/item/jabibitools_sword.json",
+          "src/main/java/net/mcreator/sebmod/item/JabibitoolsSwordItem.java"
         ]
       }
     },
@@ -208,8 +208,8 @@
       "registry_name": "jabibitools_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/seb_mod_/models/item/jabibitools_shovel.json",
-          "src/main/java/net/mcreator/sebmod/item/JabibitoolsShovelItem.java"
+          "src/main/java/net/mcreator/sebmod/item/JabibitoolsShovelItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/jabibitools_shovel.json"
         ]
       }
     },
@@ -222,8 +222,8 @@
       "registry_name": "jabibitools_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sebmod/item/JabibitoolsHoeItem.java",
-          "src/main/resources/assets/seb_mod_/models/item/jabibitools_hoe.json"
+          "src/main/resources/assets/seb_mod_/models/item/jabibitools_hoe.json",
+          "src/main/java/net/mcreator/sebmod/item/JabibitoolsHoeItem.java"
         ]
       }
     },
@@ -301,11 +301,11 @@
       "registry_name": "jabibiarmor_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_chestplate.json",
+          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_boots.json",
           "src/main/java/net/mcreator/sebmod/item/JabibiarmorArmorItem.java",
-          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_helmet.json",
           "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_leggings.json",
-          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_boots.json"
+          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_chestplate.json",
+          "src/main/resources/assets/seb_mod_/models/item/jabibiarmor_armor_helmet.json"
         ]
       }
     },
@@ -384,8 +384,8 @@
       "registry_name": "nastypatty",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/sebmod/item/NastypattyItem.java",
-          "src/main/resources/assets/seb_mod_/models/item/nastypatty.json"
+          "src/main/resources/assets/seb_mod_/models/item/nastypatty.json",
+          "src/main/java/net/mcreator/sebmod/item/NastypattyItem.java"
         ]
       }
     },
@@ -399,11 +399,47 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sebmod/entity/layer/AmongUsLayer.java",
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/among_us_biome_modifier.json",
           "src/main/resources/assets/seb_mod_/models/item/among_us_spawn_egg.json",
-          "src/main/java/net/mcreator/sebmod/entity/AmongUsEntity.java",
-          "src/main/java/net/mcreator/sebmod/entity/model/AmongUsModel.java",
           "src/main/java/net/mcreator/sebmod/client/renderer/AmongUsRenderer.java",
-          "src/main/resources/data/seb_mod_/forge/biome_modifier/among_us_biome_modifier.json"
+          "src/main/java/net/mcreator/sebmod/entity/AmongUsEntity.java",
+          "src/main/java/net/mcreator/sebmod/entity/model/AmongUsModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Batmane",
+      "type": "animatedentity",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batmane",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/entity/model/BatmaneModel.java",
+          "src/main/java/net/mcreator/sebmod/client/renderer/BatmaneRenderer.java",
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/batmane_biome_modifier.json",
+          "src/main/java/net/mcreator/sebmod/entity/BatmaneEntity.java",
+          "src/main/java/net/mcreator/sebmod/entity/layer/BatmaneLayer.java",
+          "src/main/resources/assets/seb_mod_/models/item/batmane_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Gary",
+      "type": "animatedentity",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gary",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/entity/layer/GaryLayer.java",
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/gary_biome_modifier.json",
+          "src/main/java/net/mcreator/sebmod/entity/model/GaryModel.java",
+          "src/main/java/net/mcreator/sebmod/client/renderer/GaryRenderer.java",
+          "src/main/resources/assets/seb_mod_/models/item/gary_spawn_egg.json",
+          "src/main/java/net/mcreator/sebmod/entity/GaryEntity.java"
         ]
       }
     }
@@ -449,29 +485,55 @@
       ],
       "category": "master",
       "subtitle": "skibidi"
+    },
+    {
+      "name": "justice",
+      "files": [
+        "justice-for-gotham-made-with-voicemod"
+      ],
+      "category": "master",
+      "subtitle": "JUSTICE"
+    },
+    {
+      "name": "forgotham",
+      "files": [
+        "for_gotham"
+      ],
+      "category": "neutral",
+      "subtitle": "JUSTICE, FOR GOTHAM!"
     }
   ],
   "language_map": {
     "en_us": {
+      "item.seb_mod_.gary_spawn_egg": "Gary Spawn Egg",
       "item.seb_mod_.jabibiarmor_armor_leggings": "Jabibiarmor Leggings",
       "item.seb_mod_.jabibiarmor_armor_chestplate": "Jabibiarmor Chestplate",
+      "item.seb_mod_.among_us_spawn_egg": "Among Us Spawn Egg",
       "item.seb_mod_.skibidi_dop_dop.desc": "brrr skibidi dop dop dop yes yes",
+      "entity.seb_mod_.among_us": "Among Us",
       "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
       "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
+      "entity.seb_mod_.batmane": "Batmane",
       "item.seb_mod_.jabibitools_sword": "Jabibitools Sword",
+      "item.seb_mod_.batmane_spawn_egg": "Batmane Spawn Egg",
       "block.seb_mod_.jabibi_ore": "Jabibi Ore",
+      "subtitles.forgotham": "JUSTICE, FOR GOTHAM!",
       "item.seb_mod_.skibidi_toilet_spawn_egg": "Skibidi Toilet Spawn Egg",
       "item.seb_mod_.skibidi_dop_dop": "Skibidi Dop Dop",
       "item.seb_mod_.jabibiarmor_armor_boots": "Jabibiarmor Boots",
+      "entity.seb_mod_.gary": "Gary",
+      "item.seb_mod_.nastypatty": "Nastypatty",
       "item.seb_mod_.jabibitools_pickaxe": "Jabibitools Pickaxe",
       "subtitles.skip_a_t": "skibidi",
       "item.seb_mod_.jabibiarmor_armor_helmet": "Jabibiarmor Helmet",
       "item.seb_mod_.jabibitools_shovel": "Jabibitools Shovel",
       "item.seb_mod_.jabibitools_hoe": "Jabibitools Hoe",
       "block.seb_mod_.jabibiore_ore": "Jabibiore Ore",
+      "subtitles.justice": "JUSTICE",
       "subtitles.skibdi_dop_dop": "BRRR SKIBIDI DOP DOP DOP YES YES",
       "entity.seb_mod_.skibidi_toilet": "Skibidi Toilet",
       "item.seb_mod_.jabibi": "Jabibi",
+      "item.seb_mod_.pretty_patty": "Pretty Patty",
       "block.seb_mod_.jabibi_block": "Block of Jabibi",
       "item_group.seb_mod_.seb_mod": "Seb Mod :)",
       "item.seb_mod_.jabibitools_axe": "Jabibitools Axe"

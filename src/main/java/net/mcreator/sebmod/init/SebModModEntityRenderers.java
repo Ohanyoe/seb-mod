@@ -10,6 +10,8 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.sebmod.client.renderer.SkibiditoiletRenderer;
+import net.mcreator.sebmod.client.renderer.GaryRenderer;
+import net.mcreator.sebmod.client.renderer.BatmaneRenderer;
 import net.mcreator.sebmod.client.renderer.AmongUsRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -18,5 +20,7 @@ public class SebModModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(SebModModEntities.SKIBIDITOILET.get(), SkibiditoiletRenderer::new);
 		event.registerEntityRenderer(SebModModEntities.AMONG_US.get(), AmongUsRenderer::new);
+		event.registerEntityRenderer(SebModModEntities.BATMANE.get(), BatmaneRenderer::new);
+		event.registerEntityRenderer(SebModModEntities.GARY.get(), GaryRenderer::new);
 	}
 }

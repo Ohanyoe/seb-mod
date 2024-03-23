@@ -25,6 +25,10 @@ public class SebModModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.seb_mod_.seb_mod")).icon(() -> new ItemStack(SebModModItems.SKIBIDI_DOP_DOP.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(SebModModItems.SKIBIDI_DOP_DOP.get());
 				tabData.accept(SebModModItems.SKIBIDITOILET_SPAWN_EGG.get());
+				tabData.accept(SebModModItems.NASTYPATTY.get());
+				tabData.accept(SebModModItems.PRETTY_PATTY.get());
+				tabData.accept(SebModModItems.BATMANE_SPAWN_EGG.get());
+				tabData.accept(SebModModItems.GARY_SPAWN_EGG.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

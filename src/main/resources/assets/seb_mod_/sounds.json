@@ -43,5 +43,23 @@
         "stream": false
       }
     ]
+  },
+  "justice": {
+    "subtitle": "subtitles.justice",
+    "sounds": [
+      {
+        "name": "seb_mod_:justice-for-gotham-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  },
+  "forgotham": {
+    "subtitle": "subtitles.forgotham",
+    "sounds": [
+      {
+        "name": "seb_mod_:for_gotham",
+        "stream": false
+      }
+    ]
   }
 }

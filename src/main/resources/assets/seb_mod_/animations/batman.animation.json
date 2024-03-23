@@ -1,0 +1,94 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Batman.Idle": {
+			"animation_length": 1.04167,
+			"bones": {
+				"bone3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 360, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"0.5": {
+							"vector": [1, 2.3, 1]
+						},
+						"1.0": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"bone4": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"1.0": {
+							"vector": [1.1, 1, 1]
+						}
+					}
+				}
+			}
+		},
+		"animation.Batman.Walk": {
+			"loop": true,
+			"animation_length": 1.08333,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5417": {
+							"vector": [65, 0, 0]
+						},
+						"1.0": {
+							"vector": [-47.5, 0, 0]
+						}
+					}
+				},
+				"bone2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5417": {
+							"vector": [-57.5, 0, 0]
+						},
+						"1.0": {
+							"vector": [55, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.Batman.Death": {
+			"animation_length": 1.04167,
+			"bones": {
+				"bone2": {
+					"rotation": {
+						"vector": [0, 0, 2.5]
+					}
+				},
+				"bone4": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [90, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

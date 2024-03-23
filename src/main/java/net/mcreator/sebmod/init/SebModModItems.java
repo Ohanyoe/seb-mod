@@ -14,6 +14,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.sebmod.item.SkibidiDopDopItem;
+import net.mcreator.sebmod.item.PrettyPattyItem;
+import net.mcreator.sebmod.item.NastypattyItem;
 import net.mcreator.sebmod.item.JabibitoolsSwordItem;
 import net.mcreator.sebmod.item.JabibitoolsShovelItem;
 import net.mcreator.sebmod.item.JabibitoolsPickaxeItem;
@@ -39,7 +41,11 @@ public class SebModModItems {
 	public static final RegistryObject<Item> JABIBIARMOR_ARMOR_CHESTPLATE = REGISTRY.register("jabibiarmor_armor_chestplate", () -> new JabibiarmorArmorItem.Chestplate());
 	public static final RegistryObject<Item> JABIBIARMOR_ARMOR_LEGGINGS = REGISTRY.register("jabibiarmor_armor_leggings", () -> new JabibiarmorArmorItem.Leggings());
 	public static final RegistryObject<Item> JABIBIARMOR_ARMOR_BOOTS = REGISTRY.register("jabibiarmor_armor_boots", () -> new JabibiarmorArmorItem.Boots());
+	public static final RegistryObject<Item> NASTYPATTY = REGISTRY.register("nastypatty", () -> new NastypattyItem());
 	public static final RegistryObject<Item> AMONG_US_SPAWN_EGG = REGISTRY.register("among_us_spawn_egg", () -> new ForgeSpawnEggItem(SebModModEntities.AMONG_US, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> PRETTY_PATTY = REGISTRY.register("pretty_patty", () -> new PrettyPattyItem());
+	public static final RegistryObject<Item> BATMANE_SPAWN_EGG = REGISTRY.register("batmane_spawn_egg", () -> new ForgeSpawnEggItem(SebModModEntities.BATMANE, -13421773, -16777216, new Item.Properties()));
+	public static final RegistryObject<Item> GARY_SPAWN_EGG = REGISTRY.register("gary_spawn_egg", () -> new ForgeSpawnEggItem(SebModModEntities.GARY, -39169, -39322, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -4,7 +4,7 @@
   "experience": 0.7,
   "cookingtime": 200,
   "ingredient": {
-    "item": "seb_mod_:jabibiore_ore"
+    "item": "seb_mod_:deleted_mod_element"
   },
-  "result": "seb_mod_:jabibiore"
+  "result": "seb_mod_:deleted_mod_element"
 }

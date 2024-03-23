@@ -5,6 +5,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 
 import net.mcreator.sebmod.entity.SkibiditoiletEntity;
+import net.mcreator.sebmod.entity.GaryEntity;
+import net.mcreator.sebmod.entity.BatmaneEntity;
 import net.mcreator.sebmod.entity.AmongUsEntity;
 
 @Mod.EventBusSubscriber
@@ -20,6 +22,20 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof AmongUsEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BatmaneEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof GaryEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
