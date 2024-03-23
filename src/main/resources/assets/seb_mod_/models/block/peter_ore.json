@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "seb_mod_:block/peterfa",
+    "up": "seb_mod_:block/peterfa",
+    "north": "seb_mod_:block/peterfa",
+    "east": "seb_mod_:block/peterfa",
+    "south": "seb_mod_:block/peterfa",
+    "west": "seb_mod_:block/peterfa",
+    "particle": "seb_mod_:block/peterfa"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "seb_mod_:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "seb_mod_:deleted_mod_element",
+    "count": 9
+  }
+}

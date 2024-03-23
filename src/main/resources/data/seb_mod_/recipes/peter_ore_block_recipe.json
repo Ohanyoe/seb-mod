@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "seb_mod_:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "seb_mod_:peter_block",
+    "count": 1
+  }
+}

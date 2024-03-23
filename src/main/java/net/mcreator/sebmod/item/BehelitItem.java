@@ -4,9 +4,9 @@ package net.mcreator.sebmod.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import javax.annotation.Nullable;
 
-public class PrettyPattyItem extends Item {
-	public PrettyPattyItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(10).saturationMod(10f).meat().build()));
+public class BehelitItem extends Item {
+	public BehelitItem() {
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

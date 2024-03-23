@@ -442,6 +442,326 @@
           "src/main/resources/assets/seb_mod_/models/item/batmane_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "PeterOreSmelting",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peter_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/peter_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteHoeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/pete_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeterBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peter_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/peter_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteHoe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/PeteHoeItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/pete_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteAxeRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/pete_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/pete_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/pete_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PetePickaxe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/PetePickaxeItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/pete_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteShovel",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/PeteShovelItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/pete_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "PetePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/pete_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteShovelRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/pete_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Behelit",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "behelit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/BehelitItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/behelit.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/pete_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeterBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "peter_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/peter_block.json",
+          "src/main/resources/assets/seb_mod_/models/block/peter_block.json",
+          "src/main/resources/assets/seb_mod_/blockstates/peter_block.json",
+          "src/main/java/net/mcreator/sebmod/block/PeterBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PeterGriffin",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peter_griffin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/PeterGriffinItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/peter_griffin.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteAxe",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/PeteAxeItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/pete_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteArmor",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/pete_armor_leggings.json",
+          "src/main/resources/assets/seb_mod_/models/item/pete_armor_helmet.json",
+          "src/main/resources/assets/seb_mod_/models/item/pete_armor_chestplate.json",
+          "src/main/resources/assets/seb_mod_/models/item/pete_armor_boots.json",
+          "src/main/java/net/mcreator/sebmod/item/PeteArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PeteSword",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sebmod/item/PeteSwordItem.java",
+          "src/main/resources/assets/seb_mod_/models/item/pete_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteSwordRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/pete_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeterOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peter_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/peter_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PeteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pete_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/seb_mod_/recipes/pete_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Peter",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/peter.json",
+          "src/main/java/net/mcreator/sebmod/item/PeterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PeterOre",
+      "type": "block",
+      "sortid": 35,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "peter_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/block/peter_ore.json",
+          "src/main/resources/data/seb_mod_/forge/biome_modifier/peter_ore_biome_modifier.json",
+          "src/main/resources/assets/seb_mod_/models/item/peter_ore.json",
+          "src/main/resources/data/seb_mod_/worldgen/placed_feature/peter_ore.json",
+          "src/main/java/net/mcreator/sebmod/block/PeterOreBlock.java",
+          "src/main/resources/data/seb_mod_/worldgen/configured_feature/peter_ore.json",
+          "src/main/resources/assets/seb_mod_/blockstates/peter_ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -514,7 +834,6 @@
       "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
       "item.seb_mod_.jabibitools_sword": "Jabibitools Sword",
       "block.seb_mod_.jabibi_ore": "Jabibi Ore",
-      "subtitles.forgotham": "JUSTICE, FOR GOTHAM!",
       "item.seb_mod_.skibidi_toilet_spawn_egg": "Skibidi Toilet Spawn Egg",
       "item.seb_mod_.skibidi_dop_dop": "Skibidi Dop Dop",
       "item.seb_mod_.jabibiarmor_armor_boots": "Jabibiarmor Boots",
@@ -525,7 +844,6 @@
       "item.seb_mod_.jabibitools_shovel": "Jabibitools Shovel",
       "item.seb_mod_.jabibitools_hoe": "Jabibitools Hoe",
       "block.seb_mod_.jabibiore_ore": "Jabibiore Ore",
-      "subtitles.justice": "JUSTICE",
       "subtitles.skibdi_dop_dop": "BRRR SKIBIDI DOP DOP DOP YES YES",
       "entity.seb_mod_.skibidi_toilet": "Skibidi Toilet",
       "item.seb_mod_.jabibi": "Jabibi",
