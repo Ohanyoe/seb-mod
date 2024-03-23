@@ -30,6 +30,7 @@ public class SebModModTabs {
 				tabData.accept(SebModModItems.PETER_GRIFFIN.get());
 				tabData.accept(SebModModItems.BATMANE_SPAWN_EGG.get());
 				tabData.accept(SebModModItems.GARY_SPAWN_EGG.get());
+				tabData.accept(SebModModItems.BEHELIT.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

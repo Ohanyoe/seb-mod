@@ -393,7 +393,7 @@
       "name": "AmongUs",
       "type": "animatedentity",
       "sortid": 32,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "among_us",
       "metadata": {
@@ -570,7 +570,7 @@
       "name": "PeterBlock",
       "type": "block",
       "sortid": 36,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peter_block",
       "metadata": {
@@ -698,7 +698,7 @@
       "name": "PeterOre",
       "type": "block",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peter_ore",
       "metadata": {
@@ -717,7 +717,7 @@
       "name": "Gary",
       "type": "animatedentity",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "gary",
       "metadata": {
@@ -735,7 +735,7 @@
       "name": "Batmane",
       "type": "animatedentity",
       "sortid": 34,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "batmane",
       "metadata": {
@@ -746,6 +746,20 @@
           "src/main/java/net/mcreator/sebmod/entity/model/BatmaneModel.java",
           "src/main/java/net/mcreator/sebmod/client/renderer/BatmaneRenderer.java",
           "src/main/java/net/mcreator/sebmod/entity/layer/BatmaneLayer.java"
+        ]
+      }
+    },
+    {
+      "name": "Behelit",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "behelit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/seb_mod_/models/item/behelit.json",
+          "src/main/java/net/mcreator/sebmod/item/BehelitItem.java"
         ]
       }
     }
@@ -816,13 +830,14 @@
       "item.seb_mod_.pete_armor_helmet": "Pete Helmet",
       "item.seb_mod_.among_us_spawn_egg": "Among Us Spawn Egg",
       "item.seb_mod_.skibidi_dop_dop.desc": "brrr skibidi dop dop dop yes yes",
-      "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
-      "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
       "entity.seb_mod_.among_us": "Among Us",
+      "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
+      "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
       "item.seb_mod_.pete_armor_leggings": "Pete Leggings",
       "item.seb_mod_.pete_sword": "Pete Sword",
       "item.seb_mod_.pete_armor_boots": "Pete Boots",
       "item.seb_mod_.jabibitools_sword": "Jabibitools Sword",
+      "item.seb_mod_.behelit": "Behelit",
       "block.seb_mod_.jabibi_ore": "Jabibi Ore",
       "item.seb_mod_.skibidi_toilet_spawn_egg": "Skibidi Toilet Spawn Egg",
       "item.seb_mod_.skibidi_dop_dop": "Skibidi Dop Dop",
