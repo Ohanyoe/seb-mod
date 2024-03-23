@@ -393,7 +393,7 @@
       "name": "AmongUs",
       "type": "animatedentity",
       "sortid": 32,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "among_us",
       "metadata": {
@@ -570,7 +570,7 @@
       "name": "PeterBlock",
       "type": "block",
       "sortid": 36,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peter_block",
       "metadata": {
@@ -698,7 +698,7 @@
       "name": "PeterOre",
       "type": "block",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peter_ore",
       "metadata": {
@@ -717,7 +717,7 @@
       "name": "Gary",
       "type": "animatedentity",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "gary",
       "metadata": {
@@ -735,7 +735,7 @@
       "name": "Batmane",
       "type": "animatedentity",
       "sortid": 34,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "batmane",
       "metadata": {
