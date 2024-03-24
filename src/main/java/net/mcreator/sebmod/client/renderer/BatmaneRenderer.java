@@ -1,6 +1,10 @@
 
 package net.mcreator.sebmod.client.renderer;
 
+import net.mcreator.sebmod.entity.model.BatmaneModel;
+import net.mcreator.sebmod.entity.layer.BatmaneLayer;
+import net.mcreator.sebmod.entity.BatmaneEntity;
+
 public class BatmaneRenderer extends GeoEntityRenderer<BatmaneEntity> {
 	public BatmaneRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new BatmaneModel());

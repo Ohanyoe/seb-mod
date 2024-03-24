@@ -5,7 +5,7 @@
   },
   "spawners": {
     "type": "seb_mod_:gary",
-    "weight": 30,
+    "weight": 20,
     "minCount": 4,
     "maxCount": 4
   }

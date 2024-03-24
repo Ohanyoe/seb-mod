@@ -1,21 +1,8 @@
 
 package net.mcreator.sebmod.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.context.UseOnContext;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.sebmod.block.JabeebeePortalBlock;
-
-import java.util.List;
-
 public class JabeebeeItem extends Item {
+
 	public JabeebeeItem() {
 		super(new Item.Properties().durability(64));
 	}
@@ -38,11 +25,13 @@ public class JabeebeeItem extends Item {
 			int y = pos.getY();
 			int z = pos.getZ();
 			boolean success = false;
+
 			if (world.isEmptyBlock(pos) && true) {
 				JabeebeePortalBlock.portalSpawn(world, pos);
 				itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
 				success = true;
 			}
+
 			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
 		}
 	}

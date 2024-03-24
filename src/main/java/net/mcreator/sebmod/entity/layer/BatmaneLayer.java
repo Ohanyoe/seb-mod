@@ -1,5 +1,7 @@
 package net.mcreator.sebmod.entity.layer;
 
+import net.mcreator.sebmod.entity.BatmaneEntity;
+
 public class BatmaneLayer extends GeoRenderLayer<BatmaneEntity> {
 	private static final ResourceLocation LAYER = new ResourceLocation("seb_mod_", "textures/entities/batemane.png");
 

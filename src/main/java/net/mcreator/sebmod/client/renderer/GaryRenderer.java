@@ -1,6 +1,10 @@
 
 package net.mcreator.sebmod.client.renderer;
 
+import net.mcreator.sebmod.entity.model.GaryModel;
+import net.mcreator.sebmod.entity.layer.GaryLayer;
+import net.mcreator.sebmod.entity.GaryEntity;
+
 public class GaryRenderer extends GeoEntityRenderer<GaryEntity> {
 	public GaryRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new GaryModel());

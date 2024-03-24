@@ -1,6 +1,6 @@
 package net.mcreator.sebmod.entity.model;
 
-import software.bernie.geckolib.core.animation.AnimationState;
+import net.mcreator.sebmod.entity.BatmaneEntity;
 
 public class BatmaneModel extends GeoModel<BatmaneEntity> {
 	@Override

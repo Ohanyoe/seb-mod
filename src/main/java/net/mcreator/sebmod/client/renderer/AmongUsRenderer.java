@@ -1,6 +1,10 @@
 
 package net.mcreator.sebmod.client.renderer;
 
+import net.mcreator.sebmod.entity.model.AmongUsModel;
+import net.mcreator.sebmod.entity.layer.AmongUsLayer;
+import net.mcreator.sebmod.entity.AmongUsEntity;
+
 public class AmongUsRenderer extends GeoEntityRenderer<AmongUsEntity> {
 	public AmongUsRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new AmongUsModel());

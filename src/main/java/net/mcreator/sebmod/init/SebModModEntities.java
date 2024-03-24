@@ -36,7 +36,7 @@ public class SebModModEntities {
 	public static final RegistryObject<EntityType<BatmaneEntity>> BATMANE = register("batmane",
 			EntityType.Builder.<BatmaneEntity>of(BatmaneEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(BatmaneEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<GaryEntity>> GARY = register("gary",
-			EntityType.Builder.<GaryEntity>of(GaryEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GaryEntity::new)
+			EntityType.Builder.<GaryEntity>of(GaryEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GaryEntity::new)
 
 					.sized(0.6f, 1.8f));
 
