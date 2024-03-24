@@ -1,5 +1,7 @@
 package net.mcreator.sebmod.entity.layer;
 
+import net.mcreator.sebmod.entity.AmongUsEntity;
+
 public class AmongUsLayer extends GeoRenderLayer<AmongUsEntity> {
 	private static final ResourceLocation LAYER = new ResourceLocation("seb_mod_", "textures/entities/amongus.png");
 

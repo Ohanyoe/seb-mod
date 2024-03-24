@@ -620,7 +620,7 @@
       "name": "PeterBlock",
       "type": "block",
       "sortid": 36,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peter_block",
       "metadata": {
@@ -748,7 +748,7 @@
       "name": "PeterOre",
       "type": "block",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peter_ore",
       "metadata": {
@@ -825,6 +825,7 @@
   ],
   "language_map": {
     "en_us": {
+      "item.seb_mod_.gary_spawn_egg": "Gary Spawn Egg",
       "item.seb_mod_.jabibiarmor_armor_leggings": "Jabibiarmor Leggings",
       "item.seb_mod_.jabibiarmor_armor_chestplate": "Jabibiarmor Chestplate",
       "item.seb_mod_.among_us_spawn_egg": "Among Us Spawn Egg",
@@ -832,11 +833,14 @@
       "entity.seb_mod_.among_us": "Among Us",
       "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
       "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
+      "entity.seb_mod_.batmane": "Batmane",
+      "item.seb_mod_.batmane_spawn_egg": "Batmane Spawn Egg",
       "item.seb_mod_.jabibitools_sword": "Jabibitools Sword",
       "block.seb_mod_.jabibi_ore": "Jabibi Ore",
       "item.seb_mod_.skibidi_toilet_spawn_egg": "Skibidi Toilet Spawn Egg",
       "item.seb_mod_.skibidi_dop_dop": "Skibidi Dop Dop",
       "item.seb_mod_.jabibiarmor_armor_boots": "Jabibiarmor Boots",
+      "entity.seb_mod_.gary": "Gary",
       "item.seb_mod_.nastypatty": "Nastypatty",
       "item.seb_mod_.jabibitools_pickaxe": "Jabibitools Pickaxe",
       "subtitles.skip_a_t": "skibidi",

@@ -29,8 +29,8 @@
     "creativeTab": {
       "value": "CUSTOM:SebMod"
     },
-    "isBoss": false,
-    "bossBarColor": "PINK",
+    "isBoss": true,
+    "bossBarColor": "RED",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
       "value": ""
@@ -59,8 +59,8 @@
     "armorBaseValue": 0.0,
     "trackingRange": 128,
     "followRange": 32,
-    "health": 25,
-    "xpAmount": 20,
+    "health": 50,
+    "xpAmount": 50,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -140,7 +140,7 @@
     "height": 1.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 30,
+    "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,

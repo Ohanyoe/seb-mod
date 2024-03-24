@@ -1,7 +1,9 @@
 package net.mcreator.sebmod.entity.layer;
 
+import net.mcreator.sebmod.entity.GaryEntity;
+
 public class GaryLayer extends GeoRenderLayer<GaryEntity> {
-	private static final ResourceLocation LAYER = new ResourceLocation("seb_mod_", "textures/entities/gary.png");
+	private static final ResourceLocation LAYER = new ResourceLocation("seb_mod_", "textures/entities/garyv2.png");
 
 	public GaryLayer(GeoRenderer<GaryEntity> entityRenderer) {
 		super(entityRenderer);
