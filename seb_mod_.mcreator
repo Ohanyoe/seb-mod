@@ -557,15 +557,15 @@
       "name": "PeterBlock",
       "type": "block",
       "sortid": 36,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peter_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/seb_mod_/models/item/peter_block.json",
-          "src/main/resources/assets/seb_mod_/models/block/peter_block.json",
           "src/main/resources/assets/seb_mod_/blockstates/peter_block.json",
-          "src/main/java/net/mcreator/sebmod/block/PeterBlockBlock.java"
+          "src/main/java/net/mcreator/sebmod/block/PeterBlockBlock.java",
+          "src/main/resources/assets/seb_mod_/models/block/peter_block.json",
+          "src/main/resources/assets/seb_mod_/models/item/peter_block.json"
         ]
       }
     },
@@ -685,18 +685,18 @@
       "name": "PeterOre",
       "type": "block",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "peter_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/seb_mod_/models/block/peter_ore.json",
           "src/main/resources/data/seb_mod_/forge/biome_modifier/peter_ore_biome_modifier.json",
           "src/main/resources/assets/seb_mod_/models/item/peter_ore.json",
-          "src/main/resources/data/seb_mod_/worldgen/placed_feature/peter_ore.json",
           "src/main/java/net/mcreator/sebmod/block/PeterOreBlock.java",
           "src/main/resources/data/seb_mod_/worldgen/configured_feature/peter_ore.json",
-          "src/main/resources/assets/seb_mod_/blockstates/peter_ore.json"
+          "src/main/resources/data/seb_mod_/worldgen/placed_feature/peter_ore.json",
+          "src/main/resources/assets/seb_mod_/blockstates/peter_ore.json",
+          "src/main/resources/assets/seb_mod_/models/block/peter_ore.json"
         ]
       }
     },
@@ -760,11 +760,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/sebmod/world/features/treedecorators/PetargriffinFruitDecorator.java",
-          "src/main/java/net/mcreator/sebmod/world/features/treedecorators/PetargriffinTrunkDecorator.java",
           "src/main/resources/data/seb_mod_/worldgen/biome/petargriffin.json",
           "src/main/resources/data/seb_mod_/worldgen/configured_feature/petargriffin_tree.json",
-          "src/main/java/net/mcreator/sebmod/world/features/treedecorators/PetargriffinLeaveDecorator.java",
-          "src/main/resources/data/seb_mod_/worldgen/placed_feature/petargriffin_tree.json"
+          "src/main/resources/data/seb_mod_/worldgen/placed_feature/petargriffin_tree.json",
+          "src/main/java/net/mcreator/sebmod/world/features/treedecorators/PetargriffinTrunkDecorator.java",
+          "src/main/java/net/mcreator/sebmod/world/features/treedecorators/PetargriffinLeaveDecorator.java"
         ]
       }
     },
@@ -777,29 +777,18 @@
       "registry_name": "jabeebee",
       "metadata": {
         "files": [
+          "src/main/resources/assets/seb_mod_/models/block/jabeebee_portal_ns.json",
           "src/main/java/net/mcreator/sebmod/world/teleporter/JabeebeeTeleporter.java",
-          "src/main/resources/data/seb_mod_/dimension_type/jabeebee.json",
           "src/main/java/net/mcreator/sebmod/world/teleporter/JabeebeePortalShape.java",
           "src/main/java/net/mcreator/sebmod/item/JabeebeeItem.java",
-          "src/main/java/net/mcreator/sebmod/world/dimension/JabeebeeDimension.java",
+          "src/main/resources/data/seb_mod_/dimension_type/jabeebee.json",
           "src/main/resources/data/seb_mod_/dimension/jabeebee.json",
+          "src/main/resources/assets/seb_mod_/models/block/jabeebee_portal_ew.json",
           "src/main/resources/assets/seb_mod_/models/item/jabeebee.json",
           "src/main/java/net/mcreator/sebmod/block/JabeebeePortalBlock.java",
-          "src/main/resources/assets/seb_mod_/models/block/jabeebee_portal_ew.json",
-          "src/main/resources/assets/seb_mod_/models/block/jabeebee_portal_ns.json",
+          "src/main/java/net/mcreator/sebmod/world/dimension/JabeebeeDimension.java",
           "src/main/resources/assets/seb_mod_/blockstates/jabeebee_portal.json"
         ]
-      }
-    },
-    {
-      "name": "Imposterpotion",
-      "type": "potion",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "imposterpotion",
-      "metadata": {
-        "files": []
       }
     },
     {
@@ -809,6 +798,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "peterpotion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Imposterpotion",
+      "type": "potion",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imposterpotion",
       "metadata": {
         "files": []
       }
@@ -875,38 +875,38 @@
   ],
   "language_map": {
     "en_us": {
-      "item.seb_mod_.gary_spawn_egg": "Gary Spawn Egg",
       "item.seb_mod_.jabibiarmor_armor_leggings": "Jabibiarmor Leggings",
-      "item.seb_mod_.jabibiarmor_armor_chestplate": "Jabibiarmor Chestplate",
       "item.seb_mod_.among_us_spawn_egg": "Among Us Spawn Egg",
-      "item.seb_mod_.skibidi_dop_dop.desc": "brrr skibidi dop dop dop yes yes",
-      "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
-      "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
       "entity.seb_mod_.among_us": "Among Us",
+      "item.seb_mod_.skibiditoilet_spawn_egg": "Skibiditoilet Spawn Egg",
+      "entity.seb_mod_.skibiditoilet": "Skibiditoilet",
+      "item.seb_mod_.jabibiarmor_armor_boots": "Jabibiarmor Boots",
+      "entity.seb_mod_.gary": "Gary",
+      "subtitles.skip_a_t": "skibidi",
+      "item.seb_mod_.jabibitools_shovel": "Jabibitools Shovel",
+      "block.seb_mod_.jabibiore_ore": "Jabibiore Ore",
+      "item.seb_mod_.jabibi": "Jabibi",
+      "item.seb_mod_.jabibitools_axe": "Jabibitools Axe",
+      "block.seb_mod_.peter_ore": "Peter Ore",
+      "block.seb_mod_.peter_block": "Block of Peter",
+      "item.seb_mod_.gary_spawn_egg": "Gary Spawn Egg",
+      "item.seb_mod_.jabibiarmor_armor_chestplate": "Jabibiarmor Chestplate",
+      "item.seb_mod_.skibidi_dop_dop.desc": "brrr skibidi dop dop dop yes yes",
       "entity.seb_mod_.batmane": "Batmane",
       "item.seb_mod_.jabibitools_sword": "Jabibitools Sword",
       "item.seb_mod_.batmane_spawn_egg": "Batmane Spawn Egg",
       "block.seb_mod_.jabibi_ore": "Jabibi Ore",
       "item.seb_mod_.skibidi_toilet_spawn_egg": "Skibidi Toilet Spawn Egg",
-      "item.seb_mod_.jabibiarmor_armor_boots": "Jabibiarmor Boots",
-      "entity.seb_mod_.gary": "Gary",
       "item.seb_mod_.skibidi_dop_dop": "Skibidi Dop Dop",
       "item.seb_mod_.nastypatty": "Nastypatty",
       "item.seb_mod_.jabibitools_pickaxe": "Jabibitools Pickaxe",
-      "subtitles.skip_a_t": "skibidi",
       "item.seb_mod_.jabibiarmor_armor_helmet": "Jabibiarmor Helmet",
-      "item.seb_mod_.jabibitools_shovel": "Jabibitools Shovel",
       "item.seb_mod_.jabibitools_hoe": "Jabibitools Hoe",
-      "block.seb_mod_.jabibiore_ore": "Jabibiore Ore",
       "subtitles.skibdi_dop_dop": "BRRR SKIBIDI DOP DOP DOP YES YES",
       "entity.seb_mod_.skibidi_toilet": "Skibidi Toilet",
-      "item.seb_mod_.jabibi": "Jabibi",
       "item.seb_mod_.pretty_patty": "Pretty Patty",
       "block.seb_mod_.jabibi_block": "Block of Jabibi",
-      "item.seb_mod_.jabibitools_axe": "Jabibitools Axe",
-      "item_group.seb_mod_.seb_mod": "Seb Mod :)",
-      "block.seb_mod_.peter_ore": "Peter Ore",
-      "block.seb_mod_.peter_block": "Block of Peter"
+      "item_group.seb_mod_.seb_mod": "Seb Mod :)"
     }
   },
   "foldersRoot": {
