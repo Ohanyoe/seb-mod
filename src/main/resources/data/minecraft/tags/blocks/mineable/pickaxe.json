@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "seb_mod_:jabibi_block",
+    "seb_mod_:jabibi_ore",
+    "seb_mod_:peter_ore",
+    "seb_mod_:peter_block"
+  ]
+}

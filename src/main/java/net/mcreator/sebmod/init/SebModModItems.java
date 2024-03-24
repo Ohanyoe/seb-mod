@@ -31,7 +31,6 @@ import net.mcreator.sebmod.item.JabibitoolsHoeItem;
 import net.mcreator.sebmod.item.JabibitoolsAxeItem;
 import net.mcreator.sebmod.item.JabibiarmorArmorItem;
 import net.mcreator.sebmod.item.JabibiItem;
-import net.mcreator.sebmod.item.JabeebeeItem;
 import net.mcreator.sebmod.item.BehelitItem;
 import net.mcreator.sebmod.SebModMod;
 
@@ -70,7 +69,6 @@ public class SebModModItems {
 	public static final RegistryObject<Item> PETE_SHOVEL = REGISTRY.register("pete_shovel", () -> new PeteShovelItem());
 	public static final RegistryObject<Item> PETE_HOE = REGISTRY.register("pete_hoe", () -> new PeteHoeItem());
 	public static final RegistryObject<Item> BEHELIT = REGISTRY.register("behelit", () -> new BehelitItem());
-	public static final RegistryObject<Item> JABEEBEE = REGISTRY.register("jabeebee", () -> new JabeebeeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

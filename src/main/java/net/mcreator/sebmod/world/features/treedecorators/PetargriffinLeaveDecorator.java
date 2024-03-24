@@ -1,13 +1,23 @@
 
 package net.mcreator.sebmod.world.features.treedecorators;
 
+import net.minecraftforge.registries.RegisterEvent;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+
+import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
+import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
+import net.minecraft.world.level.levelgen.feature.treedecorators.LeaveVineDecorator;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.sebmod.init.SebModModBlocks;
+
 import com.mojang.serialization.Codec;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class PetargriffinLeaveDecorator extends LeaveVineDecorator {
-
 	public static Codec<LeaveVineDecorator> CODEC = Codec.unit(PetargriffinLeaveDecorator::new);
-
 	public static TreeDecoratorType<?> DECORATOR_TYPE = new TreeDecoratorType<>(CODEC);
 
 	@SubscribeEvent
@@ -33,21 +43,18 @@ public class PetargriffinLeaveDecorator extends LeaveVineDecorator {
 					addVine(pos, context);
 				}
 			}
-
 			if (context.random().nextFloat() < 0.25f) {
 				BlockPos pos = blockpos.east();
 				if (context.isAir(pos)) {
 					addVine(pos, context);
 				}
 			}
-
 			if (context.random().nextFloat() < 0.25f) {
 				BlockPos pos = blockpos.north();
 				if (context.isAir(pos)) {
 					addVine(pos, context);
 				}
 			}
-
 			if (context.random().nextFloat() < 0.25f) {
 				BlockPos pos = blockpos.south();
 				if (context.isAir(pos)) {
@@ -64,7 +71,5 @@ public class PetargriffinLeaveDecorator extends LeaveVineDecorator {
 			context.setBlock(blockpos, SebModModBlocks.PETER_BLOCK.get().defaultBlockState());
 			blockpos = blockpos.below();
 		}
-
 	}
-
 }

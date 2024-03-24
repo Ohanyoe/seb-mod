@@ -75,7 +75,7 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 20,
+    "treesPerChunk": 7,
     "vanillaTreeType": "Birch trees",
     "treeType": 1,
     "minHeight": 7,
@@ -100,7 +100,7 @@
     "spawnMineshaft": true,
     "spawnMineshaftMesa": true,
     "spawnPillagerOutpost": true,
-    "villageType": "none",
+    "villageType": "desert",
     "spawnWoodlandMansion": true,
     "spawnJungleTemple": true,
     "spawnDesertPyramid": true,
@@ -110,12 +110,12 @@
     "spawnShipwreck": true,
     "spawnShipwreckBeached": true,
     "spawnBuriedTreasure": true,
-    "oceanRuinType": "NONE",
+    "oceanRuinType": "WARM",
     "spawnNetherBridge": true,
     "spawnNetherFossil": true,
     "spawnBastionRemnant": true,
     "spawnEndCity": true,
-    "spawnRuinedPortal": "NONE",
+    "spawnRuinedPortal": "STANDARD",
     "spawnEntries": [
       {
         "entity": {
