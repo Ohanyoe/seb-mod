@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "seb_mod_:block/jabeebee_portal_ew"
+    },
+    "axis=x": {
+      "model": "seb_mod_:block/jabeebee_portal_ns"
+    }
+  }
+}

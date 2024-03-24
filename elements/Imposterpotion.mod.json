@@ -1,0 +1,57 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Imposterpotion",
+    "splashName": "Splash Potion of Imposterpotion",
+    "lingeringName": "Lingering Potion of Imposterpotion",
+    "arrowName": "Arrow of Imposterpotion",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 10000,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 10000,
+        "amplifier": 100,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "REGENERATION"
+        },
+        "duration": 10000,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "JUMP_BOOST"
+        },
+        "duration": 10000,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "ABSORPTION"
+        },
+        "duration": 10000,
+        "amplifier": 100,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -15,8 +15,8 @@ public class SebModModTabs {
 				tabData.accept(SebModModItems.SKIBIDITOILET_SPAWN_EGG.get());
 				tabData.accept(SebModModItems.NASTYPATTY.get());
 				tabData.accept(SebModModItems.PRETTY_PATTY.get());
-				tabData.accept(SebModModItems.BATMANE_SPAWN_EGG.get());
 				tabData.accept(SebModModItems.PETER_GRIFFIN.get());
+				tabData.accept(SebModModItems.BATMANE_SPAWN_EGG.get());
 				tabData.accept(SebModModItems.GARY_SPAWN_EGG.get());
 				tabData.accept(SebModModItems.BEHELIT.get());
 			}).withSearchBar().build());
@@ -62,6 +62,7 @@ public class SebModModTabs {
 			tabData.accept(SebModModItems.PETE_AXE.get());
 			tabData.accept(SebModModItems.PETE_SHOVEL.get());
 			tabData.accept(SebModModItems.PETE_HOE.get());
+			tabData.accept(SebModModItems.JABEEBEE.get());
 		}
 	}
 }

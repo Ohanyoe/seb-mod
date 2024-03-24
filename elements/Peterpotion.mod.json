@@ -1,0 +1,66 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Peterpotion",
+    "splashName": "Splash Potion of Peterpotion",
+    "lingeringName": "Lingering Potion of Peterpotion",
+    "arrowName": "Arrow of Peterpotion",
+    "effects": [
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 10000,
+        "amplifier": 100,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SLOWNESS"
+        },
+        "duration": 10000,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "REGENERATION"
+        },
+        "duration": 10000,
+        "amplifier": 10,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "FIRE_RESISTANCE"
+        },
+        "duration": 10000,
+        "amplifier": 100,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "WATER_BREATHING"
+        },
+        "duration": 10000,
+        "amplifier": 100,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "ABSORPTION"
+        },
+        "duration": 10000,
+        "amplifier": 100,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
