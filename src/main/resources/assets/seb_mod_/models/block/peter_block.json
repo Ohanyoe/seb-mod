@@ -7,7 +7,7 @@
     "east": "seb_mod_:block/peterblock",
     "south": "seb_mod_:block/peterblock",
     "west": "seb_mod_:block/peterblock",
-    "particle": "seb_mod_:block/peterblock"
+    "particle": "seb_mod_:block/peterfa"
   },
   "render_type": "solid"
 }

@@ -1,0 +1,90 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "seb_mod_:deathofamongus",
+    "mood_sound": {
+      "sound": "seb_mod_:skibdi_dop_dop",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "seb_mod_:forgotham",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "seb_mod_:skibdi_dop_dop",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "foliage_color": -11972094,
+    "grass_color": -16774145,
+    "sky_color": -13557759,
+    "fog_color": -13557759,
+    "water_color": -11260670,
+    "water_fog_color": -11260670
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "seb_mod_:skibiditoilet",
+        "weight": 20,
+        "minCount": 13,
+        "maxCount": 13
+      },
+      {
+        "type": "seb_mod_:among_us",
+        "weight": 20,
+        "minCount": 20,
+        "maxCount": 20
+      },
+      {
+        "type": "seb_mod_:batmane",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "seb_mod_:skibiditoilet",
+        "weight": 20,
+        "minCount": 15,
+        "maxCount": 15
+      },
+      {
+        "type": "seb_mod_:gary",
+        "weight": 20,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "seb_mod_:petargriffin_tree"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

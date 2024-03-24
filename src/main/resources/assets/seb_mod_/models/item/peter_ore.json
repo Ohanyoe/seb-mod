@@ -1,22 +1,7 @@
 {
-  "parent": "seb_mod_:block/peter_ore",
-  "display": {
-    "thirdperson": {
-      "rotation": [
-        10,
-        -45,
-        170
-      ],
-      "translation": [
-        0,
-        1.5,
-        -2.75
-      ],
-      "scale": [
-        0.375,
-        0.375,
-        0.375
-      ]
-    }
-  }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "seb_mod_:item/petar"
+  },
+  "render_type": "translucent"
 }

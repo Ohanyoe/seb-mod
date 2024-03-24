@@ -74,6 +74,7 @@ public class SebModModTabs {
 			tabData.accept(SebModModItems.PETE_AXE.get());
 			tabData.accept(SebModModItems.PETE_SHOVEL.get());
 			tabData.accept(SebModModItems.PETE_HOE.get());
+			tabData.accept(SebModModItems.JABEEBEE.get());
 		}
 	}
 }

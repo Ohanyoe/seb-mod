@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.sebmod.init.SebModModTabs;
 import net.mcreator.sebmod.init.SebModModSounds;
+import net.mcreator.sebmod.init.SebModModPotions;
 import net.mcreator.sebmod.init.SebModModItems;
 import net.mcreator.sebmod.init.SebModModEntities;
 import net.mcreator.sebmod.init.SebModModBlocks;
@@ -59,6 +60,8 @@ public class SebModMod {
 		SebModModEntities.REGISTRY.register(bus);
 
 		SebModModTabs.REGISTRY.register(bus);
+
+		SebModModPotions.REGISTRY.register(bus);
 
 	}
 
